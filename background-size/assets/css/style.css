@@ -5,27 +5,29 @@
 }
 
 
-/* background-position - define a posição da imagem de fundo : 
+/* background-size - define o tamanho da imagem de fundo : 
 
-    background-position : 1-coluna 2-linha
+        
     
-    TOP 
-    - background-position: top left
-    - background-position: top center
-    - background-position: top right
-
-    CENTER
-    - background-position: center left 
-    - background-position: center right
-    - background-position: center center
-
-    BOTTOM
-    - background-position: left bottom 
-    - background-position: right bottom
-    - background-position: center bottom
 
    */
 
 body {
-    background-color: aqua;
+    height: 100vh;
+    background-image: url(../img/wallpaper002.jpg);
+   background-color: black;
+  
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin:auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
 }

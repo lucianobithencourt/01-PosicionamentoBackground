@@ -27,9 +27,5 @@
    */
 
 body {
-    background-image: url(../img/mascote.png);
-    background-size: 130px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 98vh;
+    background-color: aqua;
 }

@@ -1,19 +1,35 @@
-
 @charset "UTF-8";
-
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-/* background-position - define a posição da imagem 
+
+/* background-position - define a posição da imagem de fundo : 
+
     background-position : 1-coluna 2-linha
-    ex : background-position : right left
-  
+    
+    TOP 
+    - background-position: top left
+    - background-position: top center
+    - background-position: top right
+
+    CENTER
+    - background-position: center left 
+    - background-position: center right
+    - background-position: center center
+
+    BOTTOM
+    - background-position: left bottom 
+    - background-position: right bottom
+    - background-position: center bottom
+
    */
 
-   body {
+body {
     background-image: url(../img/mascote.png);
+    background-size: 130px;
     background-repeat: no-repeat;
-    width: 10px 10px;
-   }
+    background-position: center center;
+    height: 98vh;
+}
